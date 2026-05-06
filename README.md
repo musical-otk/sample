@@ -15,7 +15,17 @@ Claude AI와 대화하듯 질문에 답하면 나만의 뮤지컬 관극 다이�
 
 ### 1. Claude Code 설치
 
-Claude Code는 터미널에서 Claude AI와 대화하며 코드를 만드는 도구입니다.
+Claude Code는 Claude AI와 대화하며 코드를 만드는 도구입니다. **터미널 앱**과 **VS Code 확장** 두 가지 방법으로 사용할 수 있습니다.
+
+#### 방법 A — VS Code 확장 (추천, 터미널이 낯설다면)
+
+1. [VS Code](https://code.visualstudio.com) 설치
+2. VS Code 실행 후 왼쪽 Extensions 아이콘 클릭 (또는 `Cmd+Shift+X`)
+3. 검색창에 `Claude Code` 입력
+4. **Claude Code** (Anthropic 공식) 설치
+5. 설치 후 VS Code 하단 터미널 패널(`Ctrl+`` `)에서 `claude` 입력하면 로그인 안내가 나옵니다
+
+#### 방법 B — 터미널 앱
 
 👉 https://claude.ai/code 에서 다운로드 후 설치
 
