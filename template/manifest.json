@@ -1,12 +1,12 @@
 {
-  "name": "ROGER 2026",
-  "short_name": "ROGER",
-  "description": "뮤지컬 ROGER 2026 관람 기록 앱",
-  "start_url": "/roger2026/",
-  "scope": "/roger2026/",
+  "name": "아웃캐스트 2026",
+  "short_name": "아웃캐스트",
+  "description": "뮤지컬 THE OUTCASTS 2026 관람 기록 앱",
+  "start_url": "/outcasts2026/",
+  "scope": "/outcasts2026/",
   "display": "standalone",
   "background_color": "#f5f6fa",
-  "theme_color": "#3B6FE8",
+  "theme_color": "#C49A2A",
   "orientation": "portrait",
   "icons": [
     {
