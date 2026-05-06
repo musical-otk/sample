@@ -20,14 +20,23 @@ Claude Code는 Claude AI와 대화하며 코드를 만드는 도구입니다. **
 #### 방법 A — VS Code 확장 (추천, 터미널이 낯설다면)
 
 1. [VS Code](https://code.visualstudio.com) 설치
-2. VS Code 실행 후 왼쪽 Extensions 아이콘 클릭 (또는 `Cmd+Shift+X`)
+2. VS Code 실행 후 Extensions 패널 열기
+   - Mac: `Cmd+Shift+X`
+   - Windows: `Ctrl+Shift+X`
 3. 검색창에 `Claude Code` 입력
 4. **Claude Code** (Anthropic 공식) 설치
-5. 설치 후 VS Code 하단 터미널 패널(`Ctrl+`` `)에서 `claude` 입력하면 로그인 안내가 나옵니다
+5. 설치 후 VS Code 하단 터미널 패널 열기
+   - Mac: `` Ctrl+` ``
+   - Windows: `` Ctrl+` ``
+6. 터미널에 `claude` 입력하면 로그인 안내가 나옵니다
 
 #### 방법 B — 터미널 앱
 
 👉 https://claude.ai/code 에서 다운로드 후 설치
+
+터미널 여는 법:
+- Mac: `Launchpad → 기타 → 터미널`
+- Windows: `시작 → Git Bash` (Git이 설치된 경우) 또는 `시작 → PowerShell`
 
 설치 후 터미널에서 로그인:
 ```
@@ -58,14 +67,14 @@ gh auth login
 
 ### Step 1 — 이 레포 클론
 
-터미널을 열고 아래 명령을 입력합니다.
+터미널(또는 VS Code 터미널)에서 아래 명령을 입력합니다.
 
 ```bash
 git clone https://github.com/musical-otk/sample.git my-musical-diary
 cd my-musical-diary
 ```
 
-> 터미널이 낯설다면: Mac은 `Launchpad → 기타 → 터미널`, Windows는 `시작 → PowerShell`
+> **git이 없다면**: [git-scm.com](https://git-scm.com) 에서 설치하세요. Windows는 Git Bash도 함께 설치됩니다.
 
 ### Step 2 — Claude Code 실행
 
