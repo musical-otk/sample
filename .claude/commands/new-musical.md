@@ -160,11 +160,17 @@
    - **이후 index.html 수정 시마다 `CACHE_NAME` 버전을 올려야 한다** (예: `v1` → `v2`). 변경하지 않으면 브라우저가 구 캐시를 계속 사용해 업데이트가 반영되지 않는다.
 4. `manifest.json` 수정:
    - `name`, `short_name`, `description`, `start_url`, `scope`, `theme_color`
-5. **앱 아이콘** — 사용자에게 아이콘으로 쓸 이미지를 요청한다. 이미지를 받으면 `sips`로 192×192, 512×512로 리사이즈해서 `icon-192.png`, `icon-512.png`로 저장한다. 템플릿 아이콘을 그대로 복사하지 않는다.
-   ```bash
-   sips -z 192 192 {원본이미지경로} --out icon-192.png
-   sips -z 512 512 {원본이미지경로} --out icon-512.png
-   ```
+5. **앱 아이콘** — 사용자에게 아이콘으로 쓸 이미지를 요청한다. 이미지를 받으면 192×192, 512×512로 리사이즈해서 `icon-192.png`, `icon-512.png`로 저장한다. 템플릿 아이콘을 그대로 복사하지 않는다.
+   - **Mac**: `sips` 명령 사용
+     ```bash
+     sips -z 192 192 {원본이미지경로} --out icon-192.png
+     sips -z 512 512 {원본이미지경로} --out icon-512.png
+     ```
+   - **Windows**: `sips`가 없으므로 PowerShell 또는 Node.js로 대체한다. Node.js가 설치된 경우:
+     ```bash
+     node -e "const fs=require('fs'); /* sharp 등 설치 필요 */"
+     ```
+     Node.js도 없으면 사용자에게 이미지를 직접 192×192, 512×512로 리사이즈해서 저장해달라고 요청한다 (무료 도구: [squoosh.app](https://squoosh.app)).
 6. `schedule.json` → `[]` (빈 배열)
 7. `events.json` → `[]` (빈 배열)
 
