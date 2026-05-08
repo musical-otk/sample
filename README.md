@@ -20,9 +20,9 @@ Claude AI에게 뮤지컬 정보를 알려주면, Claude가 직접 앱을 만들
 
 ## 만들어지는 앱
 
-| 홈 화면 | 캘린더 / 히트맵 |
-|---|---|
-| ![홈 화면](images/app-home.jpeg) | ![캘린더](images/app-calendar.jpeg) |
+<img src="images/app-home.jpeg" width="45%"> <img src="images/app-calendar.jpeg" width="45%">
+
+👉 [샘플 앱 직접 보기](https://musical-otk.github.io/outcasts2026/)
 
 - D-day 카드, 예정 일정, 쿠폰 현황, 재관람 스탬프 카드
 - 공연 일정 캘린더 (배우별 필터)
