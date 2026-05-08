@@ -52,7 +52,7 @@ GitHub에 파일을 올리는 데 내부적으로 필요한 도구입니다. 직
 
 ### Claude Code 로그인
 
-> **요금 안내**: Claude Code는 유료 구독이 필요합니다. Pro 플랜(월 $20)이 가장 기본이며, https://claude.ai/settings/billing 에서 확인하세요.
+> **요금 안내**: Claude Code는 **Claude Pro 구독(월 $20)** 이 필요합니다. https://claude.ai/settings/billing 에서 구독 후 로그인하세요.
 
 1. 왼쪽 사이드바의 Claude 아이콘 클릭
 2. **Sign in** 버튼 클릭
