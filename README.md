@@ -20,7 +20,7 @@ Claude AI에게 뮤지컬 정보를 알려주면, Claude가 직접 앱을 만들
 
 ## 📱 만들어지는 앱
 
-<img src="images/app-home.jpeg" width="45%"> <img src="images/app-calendar.jpeg" width="45%">
+<img src="images/app-home.jpeg" width="45%" style="object-fit:cover; height:600px;"> <img src="images/app-calendar.jpeg" width="45%" style="object-fit:cover; height:600px;">
 
 👉 [샘플 앱 직접 보기](https://musical-otk.github.io/outcasts2026/)
 
@@ -108,7 +108,7 @@ Claude에게 "이런 기능을 넣고 싶은데 가능해?" 라고 물어보세�
 
 앱 캐시(임시 저장 데이터) 때문이에요. 앱을 완전히 종료했다가 다시 열면 업데이트된 버전으로 보입니다.
 
-> ⚠️ 홈 화면에서 앱을 삭제하면 캐시와 함께 저장된 데이터도 지워질 수 있어요. 삭제 전에 Claude에게 데이터 백업 방법을 물어보세요.
+> ⚠️ 홈 화면에서 아이콘을 삭제해도 데이터는 그대로 남아있어요. 단, 브라우저 설정에서 사이트 데이터를 직접 삭제하면 기록이 모두 사라집니다. 데이터를 지우기 전에 Claude에게 백업 방법을 물어보세요.
 
 **Q. 앱 URL에 접속이 안 돼요**
 
