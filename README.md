@@ -20,7 +20,7 @@ Claude AI에게 뮤지컬 정보를 알려주면, Claude가 직접 앱을 만들
 
 ## 📱 만들어지는 앱
 
-<img src="images/app-home.jpeg" width="45%" style="object-fit:cover; height:600px;"> <img src="images/app-calendar.jpeg" width="45%" style="object-fit:cover; height:600px;">
+<img src="images/app-home.jpeg" width="45%"> <img src="images/app-calendar.jpeg" width="45%">
 
 👉 [샘플 앱 직접 보기](https://musical-otk.github.io/outcasts2026/)
 
