@@ -52,11 +52,14 @@ GitHub에 파일을 올리는 데 내부적으로 필요한 도구입니다. 직
 
 ### Claude Code 로그인
 
-> **요금 안내**: Claude Code는 **Claude Pro 구독(월 $20)** 이 필요합니다. https://claude.ai/settings/billing 에서 구독 후 로그인하세요.
+> 💡 **요금 안내**: 무료 플랜으로도 시작할 수 있지만 긴 작업은 중간에 한도에 걸릴 수 있어요. Pro 플랜(월 $20) 권장. https://claude.ai/settings/billing 에서 확인하세요.
 
 1. 왼쪽 사이드바의 Claude 아이콘 클릭
 2. **Sign in** 버튼 클릭
-3. Anthropic 계정이 없으면 https://claude.ai 에서 먼저 가입 후 플랜 구독
+3. Anthropic 계정이 없으면 https://claude.ai 에서 먼저 가입
+   - 가입 후 요금제를 선택해야 합니다
+   - 무료 플랜으로도 시작할 수 있지만 긴 작업은 중간에 한도에 걸릴 수 있어요
+   - 원활하게 사용하려면 **Pro 플랜(월 $20)** 을 권장합니다
 4. 로그인 완료 후 Claude Code 패널이 열립니다
 
 ---
@@ -65,7 +68,9 @@ GitHub에 파일을 올리는 데 내부적으로 필요한 도구입니다. 직
 
 레포(Repository)란 GitHub에 올라가 있는 파일 묶음입니다. 우리가 만들 앱의 기본 틀이 여기 들어있습니다.
 
-Claude Code 패널 입력창에 아래처럼 부탁하세요. Claude가 알아서 받아줍니다.
+1. 왼쪽 사이드바의 Claude 아이콘 클릭
+2. **New Session** 클릭
+3. 입력창에 아래처럼 부탁하세요. Claude가 알아서 받아줍니다.
 
 ```
 https://github.com/musical-otk/sample.git 이 레포를 바탕화면에 클론해줘
@@ -76,7 +81,8 @@ https://github.com/musical-otk/sample.git 이 레포를 바탕화면에 클론�
 ## 4단계 — 앱 만들기
 
 1. 왼쪽 사이드바의 Claude 아이콘 클릭
-2. Claude Code 패널 입력창에 아래 명령을 입력하고 엔터
+2. **New Session** 클릭
+3. 입력창에 아래 명령을 입력하고 엔터
 
 ```
 /new-musical
