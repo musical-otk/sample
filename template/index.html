@@ -1561,7 +1561,7 @@ function renderHome() {
         const actualPct    = Math.min(100, Math.round(cur   / b.totalSlots * 100));
         const done = cur >= b.totalSlots;
         return `<div class="home-stamp-row">
-          <div class="home-stamp-name">[📡 ${b.name}]${done?' 🎉':''}</div>
+          <div class="home-stamp-name">[🎫 ${b.name}]${done?' 🎉':''}</div>
           <div class="home-stamp-bar">
             <div class="home-stamp-bar-fill scheduled" style="width:${scheduledPct}%"></div>
             <div class="home-stamp-bar-fill actual"    style="width:${actualPct}%"></div>
@@ -3006,7 +3006,7 @@ function migrateData() {
     if (!coupons[key]?.history) return;
     const before = coupons[key].history.length;
     coupons[key].history = coupons[key].history.filter(h => {
-      if (h.type === '복원') return false;
+      if (h.type === '복원' && h.comment !== '기록 삭제로 복원') return false;
       if (h.comment && (h.comment.includes('달성 보상') || h.comment.includes('칸 달성'))) return false;
       // 관람 연동으로 자동 생성된 사용 항목 (예: "고상호×이한솔 관람 사용")
       if (h.type === '사용' && h.comment && h.comment.includes('관람 사용')) return false;
